@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">    
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <h1 class="game-title">Rock Paper Scissors</h1>
+
+    <div class="computer">
+        <img src="question-mark.png" alt="" class="computer-img">
+    </div>
+    <div class="result-wrapper">
+        <h2 class="result"></h2>
+    </div>
+    <div class="board">
+        <div class="rock">
+            <img src="rock.png" alt="" class="rock-img">
+        </div>
+        <div class="paper">
+            <img src="paper.png" alt="" class="paper-img">
+        </div>
+        <div class="scissors">
+            <img src="scissors.png" alt="" class="scissors-img">
+        </div>
+       
+    </div>
+    <div class="element-wrapper">
+        <!-- <button class="play">Play</button> -->
+        <!-- <button class="reset">Reset</button> -->
+        <p class="score">Score:</p>
+        <div class="computer-wrapper">
+            <p>Computer:</p><p class="pc-score">0</p>
+        </div>
+        <div class="user-wrapper">
+            <p>Player:</p><p class="user-score">0</p>
+        </div>
+        <div class="draw-wrapper">
+            <p>Draw:</p><p class="draw-score">0</p>
+        </div>
+        <div class="raund-wrapper">
+            <p>Total:</p><p class="raund-score">0</p>
+        </div>
+        <button class="btn-reset">Reset</button>
+        <script src="app.js"></script>
+    </div>
+    
+</body>
+</html>
